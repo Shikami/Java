@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PR</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map_">Map_Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="satellite">Satellite</string>
+    <string name="Tv_PR">PATARIDE</string>
+    <string name="title_activity_sign__up">Sign_Up</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="first_name_et">Name</string>
+    <string name="lastName_tv">Last name</string>
+    <string name="pwd_tv">Password</string>
+    <string name="btn_signUp">Sign up</string>
+    <string name="signUp_tv">Sign up</string>
+    <string name="et_firstName">First name</string>
+    <string name="et1_name">Name</string>
+    <string name="tv_lastName">Last name</string>
+    <string name="Tv_lastName">Name</string>
+    <string name="pwd_Tv">Password</string>
+    <string name="title_activity_welcome_maps">Map</string>
+    <string name="title_activity_last_page">Last_page</string>
+</resources>

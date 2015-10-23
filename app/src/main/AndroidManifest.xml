@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res-auto">
+
+    <application>
+
+      <activity>
+
+        <intent-filter>
+            <activity android:name="com.jshikami235gmail.pr.Last_page"
+                android:label="@string/title_activity_last_page"
+                android:theme="@style/AppTheme.NoActionBar"/>
+
+            <activity android:name="com.jshikami235gmail.pr.Sign_Up"
+                android:label="@string/title_activity_sign__up"
+                android:theme="@style/AppTheme.NoActionBar"/>
+
+            <activity android:name="com.jshikami235gmail.pr.MapsActivity"
+                android:label="@string/title_activity_maps">
+
+
+            <activity android:name="com.jshikami235gmail.pr.content_sign_up"
+                android:label="@string/title_activity_sign__up"/>
+
+
+        </intent-filter>
+
+              </activity>
+
+
+    </application>
+</manifest>
+

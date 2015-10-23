@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jshikami235gmail.pr.LoginActivity"
+    android:background="#0099cc">
+
+    <!-- Login progress -->
+    <ProgressBar android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Tv_PR"
+        android:id="@+id/Tv1"
+        android:autoText="false"
+        android:textColor="#fff"
+        android:paddingTop="5dp"
+        android:weightSum="4"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:background="#0099cc"/>
+
+    <Button android:id="@+id/email_sign_in_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/action_sign_in"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
